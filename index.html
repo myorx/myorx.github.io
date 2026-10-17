@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101820">
+  <meta name="description" content="毛洋洋（Myor）的个人主页：计算机图形学、具身智能、机器学习与工程项目。">
+  <title>Myor · 项目与实验</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Myor，返回顶部"><span class="brand-mark">M<span class="brand-dot">.</span></span><span>MYOR / 毛洋洋</span></a>
+      <nav aria-label="主导航">
+        <a href="#about">关于</a>
+        <a href="#work">项目</a>
+        <a href="#experience">经历</a>
+        <a class="nav-contact" href="https://github.com/myorx" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> 个人主页 / PORTFOLIO</div>
+          <h1 id="hero-title">从算法到<br><em>真实世界</em><span class="period">。</span></h1>
+          <p class="hero-lead">你好，我是 <strong>毛洋洋 / Myor</strong>。目前就读于山东大学泰山学堂（计算机），关注三维视觉、具身智能与多模态学习，也喜欢把想法做成能运行的系统。</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#work">浏览项目 <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="https://github.com/myorx" target="_blank" rel="noopener noreferrer">访问 GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
+        <div class="hero-aside" aria-label="研究与实践方向">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="hero-aside-center"><span>01 / 03</span><strong>Perception<br>→ Action</strong><small>感知 · 理解 · 行动</small></div>
+          <span class="orbit-label label-one">3D VISION</span>
+          <span class="orbit-label label-two">EMBODIED AI</span>
+          <span class="orbit-label label-three">SYSTEMS</span>
+        </div>
+      </div>
+      <div class="container hero-bottom"><span>SDU · TAISHAN COLLEGE</span><span>SCROLL TO EXPLORE <span aria-hidden="true">↓</span></span></div>
+    </section>
+
+    <section class="section about" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="section-label"><span>01</span> / 关于我</div>
+        <div>
+          <h2 id="about-title">保持好奇，<br>把问题做成作品。</h2>
+          <p class="section-intro">我的学习与实践横跨算法、计算机图形学、机器学习和软硬件系统。程序设计竞赛训练了我拆解问题的方式；三维场景、智能小车与模型微调项目，让我持续思考算法如何在真实约束下工作。</p>
+          <div class="about-facts">
+            <div><span>教育背景</span><strong>山东大学 · 泰山学堂（计算机）</strong><small>计算机科学与技术学院 / 2027 届本科生</small></div>
+            <div><span>当前关注</span><strong>具身智能与三维视觉</strong><small>多模态感知、空间理解、机器人学习</small></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section work" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <div class="section-heading"><div><div class="section-label"><span>02</span> / 精选项目</div><h2 id="work-title">探索的轨迹<span class="period">。</span></h2></div><p>从论文复现到可运行的交互系统，每个项目都记录了一个具体问题的尝试。</p></div>
+        <div class="project-grid">
+          <article class="project-card project-featured">
+            <div class="project-visual gs-visual"><img src="assets/gs-base.png" alt="3D Gaussian Splatting 场景渲染：街道上的蓝色卡车" loading="lazy"><div class="visual-caption">3DGS / SCENE PRUNING</div></div>
+            <div class="project-body"><div class="project-meta"><span>01 / 图形学实验</span><span>3D VISION</span></div><h3>3D Gaussian Splatting<br>场景轻量化</h3><p>复现三维高斯泼溅训练与渲染流程，并尝试按不透明度、尺度剪枝，评估模型体积、渲染质量与效率之间的权衡。</p><div class="tags"><span>3DGS</span><span>Python</span><span>可微渲染</span></div><a class="project-link" href="https://github.com/myorx/Computer-Graphics-Labs/tree/main/Lab4" target="_blank" rel="noopener noreferrer" aria-label="查看 3D Gaussian Splatting 项目代码">查看实验 <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual car-visual"><img src="assets/smart-car.jpg" alt="树莓派智能小车在室内进行自动避障演示" loading="lazy"><div class="visual-caption">PERCEIVE / DECIDE / ACT</div></div>
+            <div class="project-body"><div class="project-meta"><span>02 / 机器人实践</span><span>EMBODIED</span></div><h3>树莓派智能小车</h3><p>搭建四轮小车控制系统，实现键盘操控、超声波避障、循迹和摄像头红绿灯识别，探索感知到控制的完整链路。</p><div class="tags"><span>Raspberry Pi</span><span>C</span><span>OpenCV</span></div><a class="project-link" href="https://github.com/myorx/Raspberry-Pi-Smart-Car" target="_blank" rel="noopener noreferrer" aria-label="查看树莓派智能小车项目代码">查看项目 <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual llm-visual" aria-hidden="true"><div class="matrix"><span>LoRA</span><span>QuanTA</span><span>QTHA</span></div><div class="matrix-path"><i></i><i></i><i></i><i></i><i></i></div><div class="visual-caption">MODEL / ADAPTATION</div></div>
+            <div class="project-body"><div class="project-meta"><span>03 / 研究复现</span><span>MACHINE LEARNING</span></div><h3>量子增强 LLM 微调复现</h3><p>围绕 LoRA、QuanTA 风格基线与 QTHA 开展参数高效微调实验，比较方法、训练过程与结果，并记录可复现的实验配置。</p><div class="tags"><span>PyTorch</span><span>PEFT</span><span>实验复现</span></div><a class="project-link" href="https://github.com/myorx/Quantum-Enhanced-LLM-Fine-Tuning-Reproduction" target="_blank" rel="noopener noreferrer" aria-label="查看量子增强 LLM 微调复现项目">查看项目 <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual computer-visual" aria-hidden="true"><div class="terminal-top"><span></span><span></span><span></span></div><div class="terminal-lines"><div><b>CPU</b><em>fetch → decode → execute</em></div><div><b>MEM</b><em>virtual → physical</em></div><div><b>ASM</b><em>source → instructions</em></div></div><div class="visual-caption">LEARN / INTERACT</div></div>
+            <div class="project-body"><div class="project-meta"><span>04 / 交互网站</span><span>EDUCATION</span></div><h3>计算机原理可视化</h3><p>通过图文、动画与交互演示解释数据表示、指令执行、内存管理和编译过程，让抽象的计算机系统概念更容易理解。</p><div class="tags"><span>Vue 3</span><span>Vite</span><span>Express</span></div><a class="project-link" href="https://github.com/myorx/Computer-Principles-Visualizer" target="_blank" rel="noopener noreferrer" aria-label="查看计算机原理可视化项目">查看项目 <span aria-hidden="true">↗</span></a></div>
+          </article>
+        </div>
+        <div class="more-work"><span>更多工程实践</span><a href="https://github.com/myorx/Health-Management" target="_blank" rel="noopener noreferrer">健康信息管理系统 <span aria-hidden="true">↗</span></a><a href="https://github.com/myorx/Computer-Graphics-Labs" target="_blank" rel="noopener noreferrer">计算机图形学实验集 <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section experience" id="experience" aria-labelledby="experience-title">
+      <div class="container experience-grid"><div><div class="section-label"><span>03</span> / 经历与方向</div><h2 id="experience-title">在算法训练中打底，<br>在实践中寻找方向。</h2><p class="section-intro">程序设计竞赛给了我扎实的问题分析和实现训练。现在，我希望继续深入视觉感知、空间理解与机器人学习，把模型能力与真实系统连接起来。</p></div>
+        <div class="experience-list"><div class="experience-item"><span>2026</span><div><strong>CCPC 全国邀请赛（秦皇岛）银奖</strong><small>程序设计竞赛</small></div></div><div class="experience-item"><span>2026</span><div><strong>华为软件精英挑战赛江山赛区一等奖</strong><small>晋级全球总决赛 32 强</small></div></div><div class="experience-item"><span>2025</span><div><strong>CCPC 全国邀请赛（东北）银奖</strong><small>程序设计竞赛</small></div></div><div class="experience-item"><span>2025</span><div><strong>CCSP 铜奖</strong><small>计算机系统与程序设计竞赛</small></div></div><div class="experience-item"><span>2026</span><div><strong>CCF-CSP 第 41 次认证 · 380 / 500</strong><small>软件能力认证</small></div></div></div>
+      </div>
+    </section>
+
+    <section class="closing"><div class="container closing-inner"><div class="section-label"><span>04</span> / 保持联系</div><h2>下一个问题，<br><em>继续探索。</em></h2><p>项目代码与实验记录持续整理在 GitHub。</p><a class="button button-light" href="https://github.com/myorx" target="_blank" rel="noopener noreferrer">前往 GitHub <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="site-footer"><div class="container footer-inner"><span>© 2026 Myor · 毛洋洋</span><span>Built for curiosity.</span><a href="#top">返回顶部 ↑</a></div></footer>
+</body>
+</html>

@@ -1,4 +1,4 @@
-# Mao Yangyang (Myor) · Academic Homepage
+# Yangyang Mao (Myor) · Academic Homepage
 
 An English-language personal homepage built with plain HTML and CSS and published through GitHub Pages at [myorx.github.io](https://myorx.github.io/).
 

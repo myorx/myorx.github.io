@@ -8,3 +8,12 @@
 @media(max-width:850px){.header-inner{flex-wrap:wrap;padding:20px 0;gap:12px}.header-inner nav{order:3;width:100%;margin:7px 0 0;gap:19px;overflow-x:auto}.school{margin-left:auto}.intro-layout{grid-template-columns:270px minmax(0,1fr);gap:32px;padding-top:42px}.project-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.project-copy>p:not(.item-meta){min-height:0}}
 @media(max-width:680px){.page-width{width:min(100% - 36px,1120px)}.header-inner{min-height:0}.brand{font-size:17px}.header-inner nav{font-size:12px;gap:17px}.school{padding-left:12px}.school span{display:none}.school b{width:33px;height:33px}.intro-layout{display:block;padding:33px 0 58px}.identity{display:grid;grid-template-columns:104px 1fr;text-align:left;gap:18px;align-items:center}.portrait{width:104px;font-size:30px}.identity h1{font-size:24px;margin:0}.nickname{margin:1px 0 7px}.role,.muted{font-size:12px;line-height:1.4}.muted{margin:3px 0 0}.facts{margin-top:22px}.interests{margin-top:20px}.intro-content{padding-top:45px}.intro-content h2,.section-heading h2{font-size:27px}.section{padding:48px 0 56px}.section-heading{display:block;margin-bottom:25px}.section-heading>p{text-align:left;margin:9px 0 0}.feature{display:block;padding:21px 0}.feature>img,.feature-art{height:185px;margin-bottom:17px}.project-grid{grid-template-columns:1fr}.project>img,.project-art{height:190px}.project h3{min-height:0}.service{display:block}.service p{margin-top:6px}.footer-inner{padding:28px 0;display:block}.footer-inner>div:last-child{margin-top:16px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.facts div{grid-template-columns:112px minmax(0,1fr)}
+.detail-link{display:inline-block;margin-top:14px;color:var(--accent);font-size:12px;font-weight:700}
+.experience-list{border-top:1px solid var(--line)}
+.experience-item{display:grid;grid-template-columns:190px minmax(0,1fr);gap:28px;padding:26px 0;border-bottom:1px solid var(--line)}
+.experience-date{color:var(--accent);font-size:13px;font-weight:700}
+.experience-item h3{font-size:18px;line-height:1.35;letter-spacing:-.03em;margin:0 0 7px}
+.experience-item div>p:last-child{max-width:760px;color:#5b6876;font-size:13px;line-height:1.75;margin:0}
+.footer-inner>div.footer-contact{display:flex;flex-direction:column;align-items:flex-end;gap:2px}
+@media(max-width:680px){.experience-item{grid-template-columns:1fr;gap:5px;padding:20px 0}.footer-inner>div.footer-contact{align-items:flex-start;gap:5px}}
